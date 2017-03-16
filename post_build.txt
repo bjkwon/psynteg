@@ -1,0 +1,9 @@
+copy "$(TargetDir)$(TargetName)$(TargetExt)" "$(ProjectDir)$(TargetName)$(TargetExt)"
+copy "$(OutDir)$(TargetName).lib" "$(ProjectDir)$(TargetName).lib"
+
+
+copy "$(TargetDir)$(TargetName)$(TargetExt)" "$(ProjectDir)$(TargetName)$(TargetExt)"
+copy "$(OutDir)$(TargetName).lib" "$(ProjectDir)$(TargetName).lib"
+
+copy "$(TargetDir)$(TargetName)$(TargetExt)" "$(ProjectDir)$(TargetName)$(TargetExt)"
+copy "$(OutDir)$(TargetName).lib" "$(ProjectDir)$(TargetName).lib"

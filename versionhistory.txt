@@ -1,0 +1,20 @@
+1.92----07/11/2008
+includes 
+1) debug info in log file --if variable contains invalid value
+2) log file displays conditions as well
+
+1.93----07/13/2008
+1) constant stim procedure may have variables in an arbitrary range (such as 2 5 10)
+2) version 1.92 leaves annoying, unnecessary lines in the log file--> fixed.
+3) The following two fields will be necessary in genTask.ini
+[INDEPENDENT VAR] 
+[REPEATS FOR EACH VAR]
+and the following will be obsolete:
+[VALUE AND STEP] 
+[HOW MANY VALUES TO TEST]
+[HOW MANY REPEATS FOR EACH] 
+
+1.94----07/20/2008
+1) Minor problem fixed (Num of intervals for constant stim not updated)
+2) Launcher used (old psynteg.exe becomes psynteg2.exe and new psynteg.exe is merely a launcher)
+  (so that common files\auditorypro is no longer required to exist in the system path)

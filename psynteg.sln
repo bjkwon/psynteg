@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "psynteg", "psynteg.vcxproj", "{AA09D6DB-AEB0-435A-86B6-3BA172EAA1C0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bric", "bric\bric.vcxproj", "{105BCDBB-0047-4A08-9E04-25AB3963BACC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "psyntegTouch", "psyntegTouch\psyntegTouch.vcxproj", "{61A9F68A-4186-4D2A-BA4B-FF9D5BD64B88}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "psyconCI", "Nucleus_psycho\Nucleus_psycho.vdproj", "{3BB6FB85-BC7A-4AD6-87A1-BDA1A980D7EF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{105BCDBB-0047-4A08-9E04-25AB3963BACC} = {105BCDBB-0047-4A08-9E04-25AB3963BACC}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA09D6DB-AEB0-435A-86B6-3BA172EAA1C0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AA09D6DB-AEB0-435A-86B6-3BA172EAA1C0}.Debug|Win32.Build.0 = Debug|Win32
+		{AA09D6DB-AEB0-435A-86B6-3BA172EAA1C0}.Release|Win32.ActiveCfg = Release|Win32
+		{AA09D6DB-AEB0-435A-86B6-3BA172EAA1C0}.Release|Win32.Build.0 = Release|Win32
+		{105BCDBB-0047-4A08-9E04-25AB3963BACC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{105BCDBB-0047-4A08-9E04-25AB3963BACC}.Debug|Win32.Build.0 = Debug|Win32
+		{105BCDBB-0047-4A08-9E04-25AB3963BACC}.Release|Win32.ActiveCfg = Release|Win32
+		{105BCDBB-0047-4A08-9E04-25AB3963BACC}.Release|Win32.Build.0 = Release|Win32
+		{61A9F68A-4186-4D2A-BA4B-FF9D5BD64B88}.Debug|Win32.ActiveCfg = Debug|Win32
+		{61A9F68A-4186-4D2A-BA4B-FF9D5BD64B88}.Debug|Win32.Build.0 = Debug|Win32
+		{61A9F68A-4186-4D2A-BA4B-FF9D5BD64B88}.Release|Win32.ActiveCfg = Release|Win32
+		{61A9F68A-4186-4D2A-BA4B-FF9D5BD64B88}.Release|Win32.Build.0 = Release|Win32
+		{3BB6FB85-BC7A-4AD6-87A1-BDA1A980D7EF}.Debug|Win32.ActiveCfg = Debug
+		{3BB6FB85-BC7A-4AD6-87A1-BDA1A980D7EF}.Release|Win32.ActiveCfg = Release
+		{3BB6FB85-BC7A-4AD6-87A1-BDA1A980D7EF}.Release|Win32.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

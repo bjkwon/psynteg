@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Nucleus_psycho", "Nucleus_psycho.vdproj", "{1CF59677-2AD6-45DE-A3A7-817380E08FFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CF59677-2AD6-45DE-A3A7-817380E08FFE}.Debug|Default.ActiveCfg = Debug
+		{1CF59677-2AD6-45DE-A3A7-817380E08FFE}.Debug|Default.Build.0 = Debug
+		{1CF59677-2AD6-45DE-A3A7-817380E08FFE}.Release|Default.ActiveCfg = Release
+		{1CF59677-2AD6-45DE-A3A7-817380E08FFE}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

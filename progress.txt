@@ -1,0 +1,17 @@
+1:27 AM 09/21/2009========================================
+
+If tag contains variables that were defined lines above, then PrepareTags() crashes when returns the value.
+
+for example,
+
+rate=900, prd=1111.1
+
+is fine, but 
+
+
+rate=900, prd=1000000/rate
+
+crashes.
+
+SOLVED: Static EqSig.lib was not linked...the dll was unintentionally used and caused the problem.---setstr doesn't really help
+========================================
